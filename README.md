@@ -1,11 +1,10 @@
-```markdown
 # EnergyVault: Deep Learning for Battery Anomaly Detection 🔋
 
 > **Status:** Prototype  
 > **Tech Stack:** Python, PyTorch, LSTM, Matplotlib  
 > **Context:** Validation of Energy Systems / Test Bench Data Analysis
 
-## 🚗 Project Overview
+## Project Overview
 **EnergyVault** is a data-driven validation pipeline designed to detect anomalies in Li-Ion battery charging cycles. By implementing an **LSTM Autoencoder** (Neural Network), the system learns the "fingerprint" of healthy battery performance and autonomously flags deviations caused by aging, sensor drift, or thermal inefficiencies.
 
 This project simulates the workflow of analyzing **high-frequency test bench data (Prüfstandsdaten)**, bridging the gap between physical validation and advanced Machine Learning methods.
@@ -53,6 +52,5 @@ The model successfully identifies aging batteries by analyzing the reconstructio
    ```
    *This will train the model, validate it, and generate the `results_dashboard.png` image.*
 
-## 🧠 Why this matters
+## Why this matters
 In modern automotive R&D, validating energy systems requires more than static thresholds. This project demonstrates a **"Prototyping Mindset"** by applying **Deep Learning** to time-series data, automating the detection of subtle errors that traditional methods often miss.
-```
