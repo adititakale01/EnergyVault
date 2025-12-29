@@ -9,8 +9,10 @@
 
 This project simulates the workflow of analyzing **high-frequency test bench data (Prüfstandsdaten)**, bridging the gap between physical validation and advanced Machine Learning methods.
 
+The model implicitly learns electrochemical degradation patterns through temporal voltage inconsistencies.
+
 ## 🛠️ Key Features
-*   **Synthetic Data Generation:** Simulates realistic voltage curves for healthy vs. degraded batteries (replicating test bench sensor streams).
+*   **Data:** Test bench–like time-series data generation simulating healthy and degraded Li-Ion battery behavior.
 *   **LSTM Autoencoder:** A time-series Neural Network implemented in **PyTorch** for unsupervised anomaly detection.
 *   **Automated Validation:** Calculates reconstruction error metrics to distinguish between "Safe" and "Critical" states.
 *   **Visualization:** Automated dashboard generation for model performance review.
